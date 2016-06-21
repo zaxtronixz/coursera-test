@@ -5,11 +5,12 @@
 }
 
 section {
-  border: 1px solid black;
+  border: 2px solid grey;
   background-color: #Acb;
   margin-right: auto;
   margin-left: auto;
-  height: 170px;
+  min-height: 200px;
+  overflow: hidden;
 }
 
 
@@ -30,12 +31,13 @@ h3{
 
   color: white;
   clear:left;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
   float:right;
-  margin-top: 0;
-  padding:5px 0 5px 0 ;
+  margin: 0 0 5px;
+  padding:5px 15px 5px 15px;
  text-align: center;
-  width:100px;
- }
+  }
 div:nth-Child(1)>section>h3{
   background-color: #f00;
 }
